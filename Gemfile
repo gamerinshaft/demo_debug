@@ -34,6 +34,9 @@ group :test, :development do
   gem 'binding_of_caller'
   gem 'hirb'
   gem 'hirb-unicode'
+  gem 'tapp'
+  gem 'awesome_print'
+  gem 'quiet_assets'
 end
 
 # Use ActiveModel has_secure_password

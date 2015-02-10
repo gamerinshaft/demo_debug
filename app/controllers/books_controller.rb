@@ -5,7 +5,6 @@ class BooksController < ApplicationController
   # GET /books.json
   def index
     @books = Book.all
-    raise
   end
 
   # GET /books/1
@@ -32,6 +31,11 @@ class BooksController < ApplicationController
     puts "goodbye"
     binding.pry
     puts "world"
+  end
+
+  def tapp_test
+    x = [1,2,3,4,5]
+    x.map{|x| (x**2).tapp}.tapp
   end
 
   # POST /books
