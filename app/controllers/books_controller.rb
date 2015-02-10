@@ -21,11 +21,21 @@ class BooksController < ApplicationController
   def edit
   end
 
+  def say
+    puts "hello"
+    binding.pry
+    puts "world"
+    binding.pry
+    puts "and"
+    puts "goodbye"
+    binding.pry
+    puts "world"
+  end
+
   # POST /books
   # POST /books.json
   def create
     @book = Book.new(book_params)
-
     respond_to do |format|
       if @book.save
         format.html { redirect_to @book, notice: 'Book was successfully created.' }
