@@ -31,6 +31,9 @@ group :test, :development do
   gem 'pry-doc'
   gem 'pry-byebug'
   gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'hirb'
+  gem 'hirb-unicode'
 end
 
 # Use ActiveModel has_secure_password
