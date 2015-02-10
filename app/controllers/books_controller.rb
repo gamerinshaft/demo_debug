@@ -5,6 +5,7 @@ class BooksController < ApplicationController
   # GET /books.json
   def index
     @books = Book.all
+    raise
   end
 
   # GET /books/1
@@ -22,6 +23,7 @@ class BooksController < ApplicationController
   end
 
   def say
+    message = "this is debug"
     puts "hello"
     binding.pry
     puts "world"
