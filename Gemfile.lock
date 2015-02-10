@@ -58,6 +58,9 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-doc (0.6.0)
+      pry (~> 0.9)
+      yard (~> 0.8)
     pry-rails (0.3.3)
       pry (>= 0.9.10)
     rack (1.5.2)
@@ -112,6 +115,7 @@ GEM
     uglifier (2.7.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    yard (0.8.7.6)
 
 PLATFORMS
   ruby
@@ -120,6 +124,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
+  pry-doc
   pry-rails
   rails (= 4.1.9)
   sass-rails (~> 4.0.3)

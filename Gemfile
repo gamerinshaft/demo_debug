@@ -28,6 +28,7 @@ gem 'spring',        group: :development
 
 group :test, :development do
   gem 'pry-rails'
+  gem 'pry-doc'
 end
 
 # Use ActiveModel has_secure_password
