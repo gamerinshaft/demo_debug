@@ -37,6 +37,9 @@ group :test, :development do
   gem 'tapp'
   gem 'awesome_print'
   gem 'quiet_assets'
+  gem 'annotate'
+  gem 'timecop'
+  gem 'rack-mini-profiler'
 end
 
 # Use ActiveModel has_secure_password
