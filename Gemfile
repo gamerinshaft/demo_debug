@@ -40,7 +40,7 @@ group :test, :development do
   gem 'annotate'
   gem 'timecop'
   gem 'rack-mini-profiler'
-  gem 'xray-rails', require: false
+  gem 'xray-rails'
 end
 
 # Use ActiveModel has_secure_password
