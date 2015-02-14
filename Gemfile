@@ -41,6 +41,7 @@ group :test, :development do
   gem 'timecop'
   gem 'rack-mini-profiler'
   gem 'xray-rails'
+  gem 'rails-footnotes'
 end
 
 # Use ActiveModel has_secure_password
